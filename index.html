@@ -3,34 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>入門網頁，加入按鈕紅綠切換與點擊計數</title>
+  <title>David 的 AI 學習筆記</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main class="card">
     <span class="tag">DIRECTOR × CODEX</span>
-    <h1>入門網頁，加入按鈕紅綠切換與點擊計數</h1>
+    <h1>David 的 AI 學習筆記</h1>
     <p class="intro">你好，我是 David。<br>我負責定目標，讓 Codex 把想法變成作品。</p>
     <div class="steps" aria-label="合作流程">
       <span>01 定目標</span><span>02 看進度</span><span>03 驗收成果</span>
     </div>
-    <button id="hello" type="button">開始學習</button>
+    <button id="hello" type="button">跟我打聲招呼</button>
     <p id="message" class="message" role="status" aria-live="polite">按下按鈕，試試你的第一個互動。</p>
-    <section class="menu-section" aria-labelledby="menu-heading">
-      <h2 id="menu-heading">選項練習</h2>
-      <p>打開選單，每個選項都可以獨立切換紅綠色。</p>
-      <button type="button" popovertarget="options-popup">開啟彈出選單</button>
-      <div id="options-popup" popover aria-labelledby="popup-heading">
-        <h2 id="popup-heading">選擇你的選項</h2>
-        <p>綠色為初始狀態；每按一次就切換顏色。</p>
-        <div class="option-list">
-          <button type="button" class="option-button" aria-pressed="false">選項一</button>
-          <button type="button" class="option-button" aria-pressed="false">選項二</button>
-          <button type="button" class="option-button" aria-pressed="false">選項三</button>
-        </div>
-        <button type="button" class="close-popup" popovertarget="options-popup" popovertargetaction="hide">關閉選單</button>
-      </div>
-    </section>
     <footer>從一個小作品開始，學會指揮 AI。</footer>
   </main>
   <script src="script.js"></script>

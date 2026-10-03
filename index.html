@@ -16,6 +16,21 @@
     </div>
     <button id="hello" type="button">跟我打聲招呼</button>
     <p id="message" class="message" role="status" aria-live="polite">按下按鈕，試試你的第一個互動。</p>
+    <section class="menu-section">
+      <h2>選項色彩練習</h2>
+      <p>每個選項獨立循環：紅 → 橙 → 黃 → 綠 → 藍 → 紫。</p>
+      <button type="button" popovertarget="main-menu">主選單</button>
+      <div id="main-menu" popover aria-labelledby="menu-title">
+        <h2 id="menu-title">主選單</h2>
+        <p>初始為綠色，第一次點擊變紅色。</p>
+        <div class="option-list">
+          <button class="color-option" type="button" data-color="green">選項一 · 綠</button>
+          <button class="color-option" type="button" data-color="green">選項二 · 綠</button>
+          <button class="color-option" type="button" data-color="green">選項三 · 綠</button>
+        </div>
+        <button type="button" class="close-menu" popovertarget="main-menu" popovertargetaction="hide">關閉選單</button>
+      </div>
+    </section>
     <footer>從一個小作品開始，學會指揮 AI。</footer>
   </main>
   <script src="script.js"></script>

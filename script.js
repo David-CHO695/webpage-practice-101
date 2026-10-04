@@ -27,8 +27,8 @@ document.addEventListener('keydown', (event) => {
     menuToggle.focus();
   }
 });
-const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple'];
-const colorNames = ['紅', '橙', '黃', '綠', '藍', '紫'];
+const colors = ['red', 'orange', 'yellow', 'blue', 'purple'];
+const colorNames = ['紅', '橙', '黃', '藍', '紫'];
 document.querySelectorAll('.color-option').forEach((button) => {
   const label = button.textContent.split(' · ')[0];
   let next = 0;
